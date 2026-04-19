@@ -22,7 +22,8 @@ shvirtd-example-python/
 - `docker-compose` (с дефисом) - не установлен, команда не найдена
 - `docker compose` (без дефиса) - версия v5.1.3
 
-**Скриншоты:** `task0_error.png`, `task0_version.png`
+![Задание 0 ошибка](screenshots/task0_error.png)
+![Задание 0 версия](screenshots/task0_version.png)
 
 ---
 
@@ -39,7 +40,8 @@ shvirtd-example-python/
 - `.gitignore`
 - `deploy.sh`
 
-**Скриншоты:** `task1_dockerfile.png`, `task1_git_log.png`
+![Dockerfile.python](screenshots/task1_dockerfile.png)
+![Git log](screenshots/task1_git_log.png)
 
 ---
 
@@ -55,7 +57,8 @@ shvirtd-example-python/
 | Medium  | 344        |
 | Low     | 153        |
 
-**Скриншоты:** `task2_registry_images.png`, `task2_scan_report.png`
+![Registry images](screenshots/task2_registry_images.png)
+![Scan report](screenshots/task2_scan_report.png)
 
 ---
 
@@ -86,7 +89,8 @@ docker exec -it shvirtd-db mysql -uroot -pYtReWq4321 -e "USE virtd; SELECT * FRO
 | 2 | 2026-04-18 15:33:35 | 127.0.0.1 |
 | 3 | 2026-04-18 15:34:54 | 127.0.0.1 |
 
-**Скриншоты:** `task3_curl.png`, `task3_mysql.png`
+![Curl результат](screenshots/task3_curl.png)
+![MySQL данные](screenshots/task3_mysql.png)
 
 ---
 
@@ -112,7 +116,10 @@ curl -L http://111.88.244.133:8090
 - Успешные ответы из 30+ стран мира
 - HTTP статус: 200 OK
 
-**Скриншоты:** `task4_vm_local.png`, `task4_external_access.png`, `task4_check_host.png`, `task4.1_check_host.png`
+![На ВМ](screenshots/task4_vm_local.png)
+![Доступ снаружи](screenshots/task4_external_access.png)
+![Check-host.net часть 1](screenshots/task4_check_host.png)
+![Check-host.net часть 2](screenshots/task4.1_check_host.png)
 
 ---
 
@@ -122,7 +129,7 @@ curl -L http://111.88.244.133:8090
 - Проанализирован образ `hashicorp/terraform:latest`
 - Найден слой с бинарным файлом terraform
 
-**Скриншот:** `task6_dive.png`
+![dive интерфейс](screenshots/task6_dive.png)
 
 ---
 
@@ -136,7 +143,7 @@ docker cp temp-terraform:/bin/terraform ./terraform
 
 **Результат:** `Terraform v1.14.8 on linux_amd64`
 
-**Скриншот:** `task6_terraform_version.png`
+![Terraform version](screenshots/task6_terraform_version.png)
 
 ---
 
@@ -157,7 +164,8 @@ COPY --from=source /bin/terraform /terraform
 # Terraform v1.14.8 on linux_amd64
 ```
 
-**Скриншот:** `task6.2_build_extract.png`
+![Terraform from build](screenshots/task6.2_build_extract.png)
+
 ---
 
 ## Запуск проекта
@@ -169,8 +177,6 @@ docker compose up -d
 curl -L http://localhost:8090
 docker compose down
 ```
-
----
 
 ## Ссылки
 
