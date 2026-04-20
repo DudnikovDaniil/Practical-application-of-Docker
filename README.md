@@ -112,6 +112,10 @@ curl -L http://111.88.244.133:8090
 
 **Результат:** `"TIME: 2026-04-19 08:34:42, IP: 81.3.189.20"`
 
+**Данные в БД на ВМ:**
+
+![Данные в БД](screenshots/task4_mysql.png)
+
 **Проверка через check-host.net:**
 - Успешные ответы из 30+ стран мира
 - HTTP статус: 200 OK
@@ -144,6 +148,8 @@ docker cp temp-terraform:/bin/terraform ./terraform
 **Результат:** `Terraform v1.14.8 on linux_amd64`
 
 ![Terraform version](screenshots/task6_terraform_version.png)
+
+![Terraform version](screenshots/terraform_version001.png)
 
 ---
 
