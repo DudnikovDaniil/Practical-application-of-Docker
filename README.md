@@ -116,6 +116,10 @@ curl -L http://111.88.244.133:8090
 
 ![Данные в БД](screenshots/task4_mysql.png)
 
+**Внешние IP в БД (исправлено):**
+
+![Внешние IP в БД](screenshots/task4_external_ips.png)
+
 **Проверка через check-host.net:**
 - Успешные ответы из 30+ стран мира
 - HTTP статус: 200 OK
@@ -134,6 +138,11 @@ curl -L http://111.88.244.133:8090
 - Найден слой с бинарным файлом terraform
 
 ![dive интерфейс](screenshots/task6_dive.png)
+
+- Проанализирован образ `hashicorp/terraform:latest`
+- Найден слой с бинарным файлом terraform:
+
+![Terraform слой найден](screenshots/task6_terraform_layer_found.png)
 
 ---
 
@@ -190,3 +199,7 @@ docker compose down
 - [Исходный репозиторий](https://github.com/netology-code/shvirtd-example-python)
 
 
+
+**Внешние IP в БД:**
+
+**Слой с terraform найден:**
